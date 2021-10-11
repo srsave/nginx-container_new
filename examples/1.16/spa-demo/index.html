@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Sudeep</title>
+  <!--<base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">-->
+<link rel="stylesheet" href="styles.31d6cfe0d16ae931b73c.css"></head>
+<body>
+  <app-root>
+      <form id="form1" runat="server">
+        <div>
+          <table cellspacing="0" cellpadding="0" width="69%" align="center" border="0">
+            <tbody><tr>
+              <td>
+                <div style="background-color: Blue; color: white; height: 75px; padding: inherit; width: 100%; display: block;">
+                  <div style="width: 40%; float: left;">
+                    <img style="margin: 5px" src="icicilogo2.png">
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td align="center" class="heading111">
+                Subscribe to investor alerts
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <font face="Arial" size="2"><i>* indicates compulsory fields</i></font>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                
+                  &lt;%--
+                  --%&gt;
+                    &lt;%--
+                    --%&gt;
+                    &lt;%--
+                    --%&gt;
+                  &lt;%--
+                  --%&gt;
+                  <table style="background-color: #fbfbf1" cellspacing="8" cellpadding="0" width="100%" align="center" border="0">
+                  <tbody><tr>
+                    <td class="heading1" colspan="2">
+                      Personal Details
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="30%">
+                      &nbsp;
+                    </td>
+                    <td width="70%">
+                      <asp:label id="Label1" runat="server" forecolor="#A41C2B" font-size="X-Small"></asp:label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Email Address *
+                    </td>
+                    <td class="fieldtxt">
+
+                      <asp:textbox id="txtEmailAddress" runat="server" cssclass="input" width="240px" maxlength="50" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      First Name *
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtfirstName" runat="server" cssclass="input" width="240px" maxlength="50" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Last Name *
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtLastName" runat="server" cssclass="input" width="240px" maxlength="50" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Company Name *
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtCompanyName" runat="server" cssclass="input" width="240px" maxlength="100" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Type
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:dropdownlist id="ddlInvestorType" runat="server" cssclass="input">
+                        <asp:listitem text="--- Select ---" value="0" selected="True"></asp:listitem>
+                        <asp:listitem text="Internal" value="1"></asp:listitem>
+                        <asp:listitem text="Extarnal" value="2"></asp:listitem>
+                      </asp:dropdownlist>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                    <td>
+                      &nbsp;
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="heading1" colspan="2">
+                      Mailing Details
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                    <td>
+                      &nbsp;
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Street Address *
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtStreetAddress1" runat="server" cssclass="input" width="240px" maxlength="50" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtStreetAddress2" runat="server" cssclass="input" width="240px" maxlength="50" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtStreetAddress3" runat="server" cssclass="input" width="240px" maxlength="50" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      City / Town *
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtCity" runat="server" cssclass="input" width="240px" maxlength="50" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Zip / Postal Code
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtPin" runat="server" cssclass="input" width="240px" maxlength="10" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Country *
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:dropdownlist id="ddlCountry" runat="server" cssclass="input">
+                        <asp:listitem text="--- Select ---" value="0" selected="True"></asp:listitem>
+                        <asp:listitem text="India" value="1"></asp:listitem>
+                      </asp:dropdownlist>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                    <td>
+                      &nbsp;
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" class="heading1">
+                      Contact Details
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                    <td>
+                      &nbsp;
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Telephone
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtTelephone" runat="server" cssclass="input" width="240px" maxlength="25" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      Fax
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="txtFax" runat="server" cssclass="input" width="240px" maxlength="25" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                  </tr><tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td><td class="fieldtxt">
+                      <asp:image id="imgText" runat="server" visible="false">
+                    </asp:image></td><td class="fieldtxt">
+                      <img src="JpegImage.aspx" align="left">
+                    </td>
+                  </tr><tr>
+                    <td class="fieldtxt">
+                      Enter the code shown above:
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:textbox id="CodeNumberTextBox" runat="server" cssclass="input" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr><tr>
+                    <td class="fieldtxt">
+                      &nbsp;
+                    </td>
+                    <td class="fieldtxt">
+                      <asp:label id="MessageLabel" runat="server" forecolor="#A41C2B" font-size="X-Small"></asp:label>
+                      <asp:textbox id="txtinvisible" runat="server" cssclass="input" visible="False" autocompletetype="Disabled"></asp:textbox>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fieldtxt" align="center" colspan="2">
+                      <asp:button id="SubmitButton" runat="server" text="Subscribe" onclick="SubmitButton_Click"></asp:button>
+                      <asp:button id="btnReset" runat="server" text="Reset"></asp:button>
+                      <asp:button id="btnClose" runat="server" text="Close"></asp:button>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody></table>
+        </div>
+      </form>
+  </app-root>
+<script src="runtime.ba7722e031a2785eddab.js" defer></script><script src="polyfills.fe22f142cf1e82537d44.js" defer></script><script src="main.694ee6b86e1e8a3d5d9c.js" defer></script>
+
+</body></html>
